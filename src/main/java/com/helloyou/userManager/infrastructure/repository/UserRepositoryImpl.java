@@ -1,9 +1,11 @@
 package com.helloyou.userManager.infrastructure.repository;
 
-import com.helloyou.userManager.app.repository.UserRepository;
-import org.springframework.stereotype.Service;
+import com.helloyou.userManager.domain.interfaces.UserRepository;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component
+@Primary
 public class UserRepositoryImpl implements UserRepository {
     public UserRepositoryImpl() {
     }

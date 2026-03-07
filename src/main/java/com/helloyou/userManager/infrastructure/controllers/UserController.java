@@ -10,12 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/user")
 public class UserController {
 
+    private final NewUserUseCase newUserUseCase;
+
+    public UserController(NewUserUseCase newUserUseCase) {
+        this.newUserUseCase = newUserUseCase;
+    }
 
     @GetMapping("/index")
-    public String newUser(
-            NewUserUseCase newUserUseCase
-    ) {
+    public String newUser() {
         return newUserUseCase.execute();
-
     }
 }

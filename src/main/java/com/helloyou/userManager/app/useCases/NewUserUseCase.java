@@ -1,16 +1,15 @@
 package com.helloyou.userManager.app.useCases;
 
-import com.helloyou.userManager.app.repository.UserRepository;
-import com.helloyou.userManager.infrastructure.repository.UserRepositoryImpl;
+import com.helloyou.userManager.domain.interfaces.UserRepository;
 import org.springframework.stereotype.Service;
 
 @Service
 public class NewUserUseCase {
 
-    private final UserRepositoryImpl userRepository;
+    private final UserRepository userRepository;
 
     public NewUserUseCase(
-            UserRepositoryImpl userRepository
+            UserRepository userRepository
     ) {
         this.userRepository = userRepository;
     }
