@@ -11,20 +11,17 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
-import java.net.URI;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
 @Component
 @Service
 @RequiredArgsConstructor
-public class GameSessionRepository {
+public class GameSessionRepositoryImpl {
     private final ObjectMapper objectMapper; // Jackson ya es un bean en Spring Boot
 
-    public GameSessionRepository() {
+    public GameSessionRepositoryImpl() {
         objectMapper = new ObjectMapper()
                 .registerModule(new JavaTimeModule())
                 .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
