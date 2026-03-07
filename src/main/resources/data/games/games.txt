@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "title": "La Maldición de Strahd",
+    "system": "D&D 5e",
+    "status": "OPEN",
+    "gmName": "Gandalf_DM",
+    "maxPlayers": 5,
+    "currentPlayers": 2,
+    "scheduledAt": "2026-03-15T18:00:00",
+    "description": "Campaña de terror gótico en Barovia. Se buscan héroes valientes... o temerarios."
+  },
+  {
+    "id": 2,
+    "title": "Starfinder: Bordes de la Galaxia",
+    "system": "Starfinder",
+    "status": "OPEN",
+    "gmName": "MasterZero",
+    "maxPlayers": 4,
+    "currentPlayers": 4,
+    "scheduledAt": "2026-03-20T20:00:00",
+    "description": "Exploración espacial con combates tácticos. Plazas completas, lista de espera disponible."
+  },
+  {
+    "id": 3,
+    "title": "El Grial Partido",
+    "system": "Pathfinder 2e",
+    "status": "IN_PROGRESS",
+    "gmName": "CronistaDeSombras",
+    "maxPlayers": 6,
+    "currentPlayers": 6,
+    "scheduledAt": "2026-03-10T17:30:00",
+    "description": "Partida en curso. Los aventureros ya han entrado en la mazmorra."
+  },
+  {
+    "id": 4,
+    "title": "Cyberpunk Red: Noche Ciudad Rota",
+    "system": "Cyberpunk RED",
+    "status": "DRAFT",
+    "gmName": "NetrunnerX",
+    "maxPlayers": 4,
+    "currentPlayers": 0,
+    "scheduledAt": "2026-04-01T21:00:00",
+    "description": "Partida urbana de intriga corporativa. Aún en preparación."
+  },
+  {
+    "id": 5,
+    "title": "La Sombra sobre Innsmouth",
+    "system": "Call of Cthulhu 7e",
+    "status": "FINISHED",
+    "gmName": "ElGuardianDelUmbral",
+    "maxPlayers": 3,
+    "currentPlayers": 3,
+    "scheduledAt": "2026-02-28T19:00:00",
+    "description": "One-shot de horror lovecraftiano. Partida completada."
+  }
+]
