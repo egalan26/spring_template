@@ -7,3 +7,6 @@ start_server:
 # En otra terminal, para que se vean los cambios
 compile:
 	mvn compile
+
+install:
+	mvn clean install -U
