@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.io.IOException;
 import java.util.ArrayList;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/v1/game-sessions")
 public class GameSessionController {
